@@ -1,6 +1,9 @@
 <?php
-  require '../src/models/Car.php';
-  require '../src/controllers/CarController.php';
+  // require '../src/models/Car.php';
+  // require '../src/controllers/CarController.php';
+  require '../vendor/autoload.php';
+
+  use Andres\Cars\Controllers\CarController;
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -14,7 +17,15 @@
 <?php
   $controller = new CarController();
   if (isset($_GET['id'])) {
-    $controller->show($_GET['id']);
+    $id = $_GET['id'];
+    if (isset($_GET['action'])) {
+      $action = $_GET['action'];
+      if ($action == 'delete') {
+        $controller->delete($id);
+      }
+    } else {
+      $controller->show($id);
+    }
   } else {
     $controller->list();
   }
