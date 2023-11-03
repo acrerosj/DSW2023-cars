@@ -77,13 +77,6 @@
         "color": "Green"
     },
     {
-        "id": "JN1BY1AP5DM802774",
-        "make": "Infiniti",
-        "model": "QX",
-        "year": 2007,
-        "color": "Goldenrod"
-    },
-    {
         "id": "WAUDL74F46N242220",
         "make": "Geo",
         "model": "Metro",
@@ -677,5 +670,12 @@
         "model": "Impreza",
         "year": 1999,
         "color": "Green"
+    },
+    {
+        "id": "12324QWER",
+        "make": "Fiat",
+        "model": "Picanto",
+        "year": 2010,
+        "color": "black"
     }
 ]
