@@ -1,12 +1,5 @@
 [
     {
-        "id": "1G4PR5SK5C4700430",
-        "make": "Jeep",
-        "model": "Grand Cherokee",
-        "year": 2006,
-        "color": "Crimson"
-    },
-    {
         "id": "3N1AB6AP1CL624249",
         "make": "Volvo",
         "model": "S60",
@@ -75,13 +68,6 @@
         "model": "Grand Prix",
         "year": 2008,
         "color": "Green"
-    },
-    {
-        "id": "WAUDL74F46N242220",
-        "make": "Geo",
-        "model": "Metro",
-        "year": 1992,
-        "color": "Turquoise"
     },
     {
         "id": "1C4NJPBA0FD882483",
@@ -676,6 +662,13 @@
         "make": "Fiat",
         "model": "Picanto",
         "year": 2010,
-        "color": "black"
+        "color": "#66FF99"
+    },
+    {
+        "id": "123456789ABC",
+        "make": "ford",
+        "model": "fiesta",
+        "year": "2011",
+        "color": "#70e84f"
     }
 ]
