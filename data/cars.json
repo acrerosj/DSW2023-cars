@@ -14,13 +14,6 @@
         "color": "Teal"
     },
     {
-        "id": "1FTEW1C83AK421869",
-        "make": "Toyota",
-        "model": "Prius",
-        "year": 2010,
-        "color": "Pink"
-    },
-    {
         "id": "YV1672MK6D2456571",
         "make": "BMW",
         "model": "X5",
@@ -29,10 +22,10 @@
     },
     {
         "id": "3C6TD5KT6CG152720",
-        "make": "Ford",
-        "model": "Mustang",
-        "year": 1994,
-        "color": "Violet"
+        "make": "Seat",
+        "model": "Marbella",
+        "year": "1988",
+        "color": "#7fb6e1"
     },
     {
         "id": "WA1BY94L17D656571",

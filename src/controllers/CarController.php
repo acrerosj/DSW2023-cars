@@ -51,4 +51,9 @@ class CarController {
     $car = Car::find($id);
     require '../src/views/edit.php';
   }
+
+  public function update($id, $data) {
+   Car::update($id, $data);
+   $this->list();
+  }
 }

@@ -1,6 +1,5 @@
 <h1>Editando el coche con id: <?=$id?></h1>
-<form action="index.php?action=update" method="post">
-    <input type="hidden" name="id" value="<?=$id?>">    
+<form action="index.php?action=update&id=<?=$id?>" method="post">
   <p>
     <label for="">Marca</label>
     <input type="text" name="make" value="<?=$car->make?>">

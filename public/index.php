@@ -47,23 +47,10 @@ use Andres\Cars\Controllers\CarController;
     case "edit":
       $controller->edit($id);
       break;
+    case "update":
+      $controller->update($id, $_POST);
+      break;
   }
-
-  // $controller = new CarController();
-  // if (isset($_GET['id'])) {
-  //   $id = $_GET['id'];
-  //   if (isset($_GET['action'])) {
-  //     $action = $_GET['action'];
-  //     if ($action == 'delete') {
-  //       $controller->delete($id);
-  //     }
-  //   } else {
-  //     $controller->show($id);
-  //   }
-  // } else {
-  //   $controller->create();
-  //   $controller->list();
-  // }
   ?>
 </body>
 
